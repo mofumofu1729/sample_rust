@@ -1,0 +1,5 @@
+const STR = "Hello world!";
+
+fn main() {
+    println!("{}", STR);
+}
