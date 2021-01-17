@@ -9,4 +9,15 @@ fn main() {
     let t = func1(&s);
 
     println!("{}", s);
+
+    let v = vec![4, 2, 1];
+    let a: i32 = v[0];
+    println!("{}", a);
+
+    let b = v[0];
+    println!("{}", b);
+    
+    let v = s;
+    println!("{}", s);
+    println!("{}", v);
 }
