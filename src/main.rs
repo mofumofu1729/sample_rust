@@ -4,20 +4,10 @@ fn func1(a: &i32) -> i32{
 }
 
 fn main() {
-    let s = 1;
+    let s = String::from("hello");
+    let t = String::from("hello");
+    let u = String::from("hello");
 
-    let t = func1(&s);
-
-    println!("{}", s);
-
-    let v = vec![4, 2, 1];
-    let a: i32 = v[0];
-    println!("{}", a);
-
-    let b = v[0];
-    println!("{}", b);
-    
-    let v = s;
-    println!("{}", s);
-    println!("{}", v);
+    let v = vec![s, t, u];
+    println!("{}", v[0]);
 }
